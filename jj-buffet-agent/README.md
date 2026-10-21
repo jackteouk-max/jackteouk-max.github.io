@@ -17,6 +17,9 @@ The PDF and email never mention how the reviews were collected or that any tools
 
 This folder is on branch `claude/cool-franklin-otwedh`, not the website's `main`, so none of it appears on the public site.
 
+## Schedule
+Claude scheduled task "JJ Buffet – 48h Google Reviews Report" (`trig_01UPfFt9XLutfojcxMEb4odJ`) wakes daily at 08:51 London time and resumes the Claude Code session that built this agent. That session has the Gmail and Outscraper connectors. The 46-hour guard means it only sends every other day.
+
 ## Decisions
 - Non-English reviews are translated to English, with the original kept underneath. Their replies are given in English and in the reviewer's language.
 - Replies are signed "The JJ Buffet Team" and never offer refunds or free meals.
