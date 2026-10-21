@@ -1,0 +1,39 @@
+{
+  "window_start": "2026-10-19T02:32:47+00:00",
+  "window_end": "2026-10-21T02:32:47+00:00",
+  "count": 4,
+  "reviews": [
+    {
+      "review_id": "r1",
+      "author": "Julie Vega",
+      "rating": 5,
+      "datetime_utc": "2026-10-20T18:52:05+00:00",
+      "text": "Nous avons bien mangé pour pas cher",
+      "owner_answer": null
+    },
+    {
+      "review_id": "r2",
+      "author": "Stephanie Lindner",
+      "rating": 1,
+      "datetime_utc": "2026-10-20T15:00:46+00:00",
+      "text": "Schmeckt nicht, kalt. Auf Touristen ausgelegt",
+      "owner_answer": null
+    },
+    {
+      "review_id": "r3",
+      "author": "Léa Barco",
+      "rating": 1,
+      "datetime_utc": "2026-10-20T12:41:02+00:00",
+      "text": "The restaurant offers a very limited choice of food. For example, there are no spring rolls and no dessert or sweet options. However, I think paying £42 for two Coke Zeros and the “buffet” is, sorry to say, excessive.\nDon’t have a cup of glass for drink\n\nNot to mention that everything was cold.\n\nWe are really disappointed.",
+      "owner_answer": null
+    },
+    {
+      "review_id": "r4",
+      "author": "Tom Figur",
+      "rating": 5,
+      "datetime_utc": "2026-10-19T20:04:31+00:00",
+      "text": "Delicous food. Accesible toilet access.",
+      "owner_answer": null
+    }
+  ]
+}

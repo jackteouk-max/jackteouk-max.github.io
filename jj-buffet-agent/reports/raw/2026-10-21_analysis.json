@@ -1,0 +1,65 @@
+{
+  "business": "JJ Buffet",
+  "window_start": "2026-10-19T02:32:47+00:00",
+  "window_end": "2026-10-21T02:32:47+00:00",
+  "overview": "Four new reviews this period, split evenly: two guests were very happy with the food, value and accessibility, and two left disappointed. Food temperature came up in both negative reviews and is the clear priority. Three of the four reviewers wrote in French or German, so the floor team is serving many overseas visitors.",
+  "reviews": [
+    {
+      "author": "Julie Vega",
+      "rating": 5,
+      "datetime_utc": "2026-10-20T18:52:05+00:00",
+      "text_en": "We ate well for not much money.",
+      "original_text": "Nous avons bien mangé pour pas cher",
+      "original_language": "French",
+      "reply_en": "Dear Julie, thank you so much for stopping by and for taking the time to leave us five stars. We're really glad you enjoyed your meal and felt it was good value. That's exactly what we aim for. We hope to welcome you back the next time you're in London. Warm wishes, The JJ Buffet Team",
+      "reply_original": "Chère Julie, merci beaucoup pour votre visite et pour ces cinq étoiles. Nous sommes ravis que vous ayez bien mangé et trouvé nos prix raisonnables, c'est exactement ce que nous souhaitons offrir. Au plaisir de vous accueillir à nouveau lors de votre prochain séjour à Londres. Bien cordialement, L'équipe JJ Buffet"
+    },
+    {
+      "author": "Stephanie Lindner",
+      "rating": 1,
+      "datetime_utc": "2026-10-20T15:00:46+00:00",
+      "text_en": "Doesn't taste good, cold. Aimed at tourists.",
+      "original_text": "Schmeckt nicht, kalt. Auf Touristen ausgelegt",
+      "original_language": "German",
+      "reply_en": "Dear Stephanie, thank you for your honest feedback, and we're sorry your meal was cold and not to your taste. That isn't the standard we want for any guest, visitor or local. We've shared your comments with the kitchen and are tightening how often the buffet is refreshed and how we check food temperature through the afternoon. We'd be glad to have the chance to show you a better experience. Kind regards, The JJ Buffet Team",
+      "reply_original": "Liebe Stephanie, vielen Dank für Ihr ehrliches Feedback. Es tut uns leid, dass das Essen kalt war und Ihnen nicht geschmeckt hat. Das entspricht nicht unserem Anspruch, egal ob für Besucher oder Einheimische. Wir haben Ihre Rückmeldung an die Küche weitergegeben und kontrollieren das Nachfüllen des Buffets und die Temperatur der Speisen am Nachmittag nun noch genauer. Wir würden uns freuen, Ihnen bei einem nächsten Besuch einen besseren Eindruck zu bieten. Freundliche Grüße, Ihr JJ Buffet Team"
+    },
+    {
+      "author": "Léa Barco",
+      "rating": 1,
+      "datetime_utc": "2026-10-20T12:41:02+00:00",
+      "text_en": "The restaurant offers a very limited choice of food. For example, there are no spring rolls and no dessert or sweet options. However, I think paying £42 for two Coke Zeros and the \"buffet\" is, sorry to say, excessive.\nDon't have a cup of glass for drink\n\nNot to mention that everything was cold.\n\nWe are really disappointed.",
+      "reply_en": "Dear Léa, thank you for taking the time to tell us about your visit, and we're truly sorry it left you disappointed. You're right that the food should be served hot, and that guests should always be offered a glass with their drinks. We've raised both with the team straight away. We also hear you on the choice: lunchtime should have spring rolls and something sweet on the counter, and we're reviewing how we keep the full range topped up during the day. Thank you for being so open with us, and we hope you'll let us make it up to you with a much better visit. Kind regards, The JJ Buffet Team"
+    },
+    {
+      "author": "Tom Figur",
+      "rating": 5,
+      "datetime_utc": "2026-10-19T20:04:31+00:00",
+      "text_en": "Delicious food. Accessible toilet access.",
+      "reply_en": "Hi Tom, thanks so much for the five stars and for the photo! We're delighted you enjoyed the food, and it's great to hear the accessible toilet made your visit easier. We want everyone to feel comfortable here. See you again soon. Best wishes, The JJ Buffet Team"
+    }
+  ],
+  "complaints": [
+    {
+      "title": "Food served cold",
+      "mentions": 2,
+      "what_guests_said": "Both negative reviews said the food was cold. Both visits were in the afternoon (around 1:40pm and 4pm).",
+      "corrective_action": "Check every hot-holding unit and bain-marie today and confirm it holds food at 63°C or above. Remove and replace any tray that has dropped below that.",
+      "preventive_action": "Bring in a probe check every 30 minutes, written on a log sheet at the pass and signed off by the shift lead. Refill with smaller, more frequent batches during quieter afternoon hours so food doesn't sit, and keep tray lids on between services."
+    },
+    {
+      "title": "Limited choice, with key items and desserts missing",
+      "mentions": 1,
+      "what_guests_said": "There were no spring rolls and nothing sweet on the counter, so the buffet felt thin for the price.",
+      "corrective_action": "Make sure the full advertised range, including spring rolls and at least one dessert, is on the counter from opening every day.",
+      "preventive_action": "Write a minimum-display list for each service and have the floor manager walk the buffet against it every hour. Give the kitchen a par level for popular items so they're refilled before they run out."
+    },
+    {
+      "title": "Drinks price and no glasses",
+      "mentions": 1,
+      "what_guests_said": "The guest felt £42 for two people with two Coke Zeros was too much, and they weren't given a glass for their drinks.",
+      "corrective_action": "Remind the floor team that every soft drink is served with a glass (and ice and lemon offered) every time.",
+      "preventive_action": "Show buffet and drink prices clearly at the entrance and on each table so the bill holds no surprises. Look at a buffet-plus-soft-drink set price for lunch, which could help how guests see value."
+    }
+  ]
+}
