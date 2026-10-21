@@ -24,7 +24,8 @@ Claude scheduled task "JJ Buffet – 48h Google Reviews Report" (`trig_01UPfFt9X
 - Non-English reviews are translated to English, with the original kept underneath. Their replies are given in English and in the reviewer's language.
 - Replies are signed "The JJ Buffet Team" and never offer refunds or free meals.
 - Duplicate guard: a run sends nothing if a report went to the recipient in the last 46 hours (checked in Gmail sent mail). So the schedule can wake daily without double-sending, and every-other-day cron's month-end reset (31st → 1st) doesn't matter.
-- The PDF uses built-in Helvetica (about 7 KB) and embeds DejaVu Sans only when a review has characters outside Western European. DejaVu has no Chinese/Japanese glyphs.
+- The PDF uses built-in Helvetica (about 7 KB) and embeds DejaVu Sans only when a review has characters outside Western European. DejaVu has no Chinese/Japanese glyphs. The PDF library's name is blanked out of the file's header comments.
 
 ## Run log
 - 21 Oct 2026 (TEST, not sent): 4 reviews (19–21 Oct), average 3.0/5, top complaint "food served cold" (2 reviews). `reports/TEST_JJ_Buffet_Reviews_2026-10-21.pdf`
+- 21 Oct 2026 08:51 (scheduled): 4 reviews (19 Oct 08:51 – 21 Oct 08:51), average 3.0/5, top complaint "food served cold" (2 reviews). Sent to wkteohuk@gmail.com with PDF attached (Gmail message 1a15d7419ebd3781). `reports/JJ_Buffet_Reviews_2026-10-21.pdf`

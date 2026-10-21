@@ -11,7 +11,7 @@ git fetch origin claude/cool-franklin-otwedh && git checkout claude/cool-frankli
 ```
 
 ## 2. Duplicate guard
-Search Gmail (`search_threads`) for `in:sent to:wkteohuk@gmail.com subject:"Google Reviews Report" newer_than:3d`. If a report was sent less than 46 hours ago, stop and say so. Nothing else to do.
+Search Gmail (`search_threads`) for `in:sent to:wkteohuk@gmail.com subject:"Google Reviews Report" newer_than:3d -subject:TEST`. `[TEST]` copies don't count. If a report was sent less than 46 hours ago, stop and say so. Nothing else to do.
 
 ## 3. Fetch reviews
 - Work out the cutoff: `date -u -d '48 hours ago' +%s`.

@@ -17,6 +17,7 @@ ANALYSIS.json:
 """
 import json
 import os
+import re
 import sys
 from datetime import datetime
 from xml.sax.saxutils import escape
@@ -176,6 +177,13 @@ def main():
                             title=f"{a.get('business', 'JJ Buffet')} Google Reviews Report",
                             author="", creator="", producer="")
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
+
+    # Blank the library's comment lines; same-length replacement keeps xref offsets valid.
+    with open(out, "rb") as f:
+        data = f.read()
+    data = re.sub(rb" ReportLab[^\n]*", lambda m: b" " * len(m.group()), data)
+    with open(out, "wb") as f:
+        f.write(data)
     print(f"Wrote {out} ({os.path.getsize(out) // 1024} KB)")
 
 
