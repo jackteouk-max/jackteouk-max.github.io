@@ -1,0 +1,16 @@
+{
+  "business": "JJ Buffet",
+  "window_start": "2026-10-21T07:52:08+00:00",
+  "window_end": "2026-10-23T07:52:08+00:00",
+  "overview": "One new review this period, and it's a five-star one. The guest singled out the sweet and sour chicken and praised how friendly the staff were. No complaints were raised. It's a good moment to keep up the food-temperature and buffet-range checks set after the last report, so the cold-food and limited-choice comments don't come back.",
+  "reviews": [
+    {
+      "author": "Maia Young",
+      "rating": 5,
+      "datetime_utc": "2026-10-21T15:00:39+00:00",
+      "text_en": "The sweet and sour chicken is SO good, I recommend it, and the staff are so lovely to you.",
+      "reply_en": "Hi Maia, thank you so much for the lovely review! We're thrilled you enjoyed the sweet and sour chicken. It's one of our favourites too, and we'll make sure the team hears how much you appreciated them. We look forward to seeing you again soon. Best wishes, The JJ Buffet Team"
+    }
+  ],
+  "complaints": []
+}
